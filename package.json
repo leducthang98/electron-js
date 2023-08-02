@@ -1,0 +1,19 @@
+{
+  "name": "electron-app",
+  "version": "\\",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.0",
+    "electron-builder": "21.4.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "appId": "xwealth.v1",
+  "productName": "XWealth",
+  "mac": {
+    "category": "investment",
+    "target": "dmg"
+  }
+}
